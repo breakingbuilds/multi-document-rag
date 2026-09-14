@@ -1,0 +1,51 @@
+# ============================================================================
+# requirements.txt — Multi-Document RAG System
+# ----------------------------------------------------------------------------
+# Install with:   pip install -r requirements.txt
+# Tested on Python 3.14 (Windows). Lower bounds are used instead of exact pins
+# so that pip can pick the newest wheels that support your Python version.
+# ============================================================================
+
+# --- LLM access -------------------------------------------------------------
+# Both Groq and the Hugging Face Inference Providers router expose an
+# OpenAI-compatible /chat/completions endpoint, so ONE SDK covers both.
+openai>=1.50
+python-dotenv>=1.0
+
+# --- Embeddings (local, free, no API key) -----------------------------------
+sentence-transformers>=3.0
+torch>=2.4
+
+# --- Vector database --------------------------------------------------------
+chromadb>=1.0
+
+# --- Document loaders -------------------------------------------------------
+pypdf>=5.0            # PDF
+python-docx>=1.1      # DOCX
+beautifulsoup4>=4.12  # HTML
+lxml>=5.0             # fast HTML parser backend for BeautifulSoup
+pandas>=2.2           # CSV
+numpy>=1.26
+
+# --- Evaluation (RAGAS) -----------------------------------------------------
+# RAGAS itself is installed in a SECOND step (see README):
+#     pip install ragas==0.4.3 --no-deps
+# Reason: ragas declares a dependency on 'scikit-network', which has no wheel
+# for Python 3.14 and fails to compile. scikit-network is only used by RAGAS's
+# synthetic test-set generator, which this project does not use, so we skip
+# it and list every other RAGAS dependency explicitly below.
+datasets>=4.0.0
+tiktoken
+nest-asyncio
+appdirs
+diskcache>=5.6.3
+instructor
+# ragas 0.4.3 still imports a module removed in langchain-community 0.4,
+# so the langchain family is pinned to the 0.3 line.
+langchain<1
+langchain-core<1
+langchain-community<0.4
+langchain-openai<1
+
+# --- Misc -------------------------------------------------------------------
+tqdm>=4.66            # progress bars during ingestion

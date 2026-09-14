@@ -1,0 +1,6 @@
+# Normalise line endings; keep Office/PDF files untouched.
+* text=auto eol=lf
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.png binary

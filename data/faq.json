@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "Leave",
+    "question": "How do I request annual leave?",
+    "answer": "Log in to PeopleHub, go to My Profile > Leave > New Request, choose the dates and submit. Your line manager approves the request within 2 working days. Submit at least 5 working days in advance."
+  },
+  {
+    "id": 2,
+    "category": "Leave",
+    "question": "Can I carry over unused annual leave to next year?",
+    "answer": "Yes. You may carry over a maximum of 5 unused annual leave days, and they must be used by 31 March of the following year."
+  },
+  {
+    "id": 3,
+    "category": "Leave",
+    "question": "Do I need a medical certificate for sick leave?",
+    "answer": "A medical certificate is required only if you are absent for more than 2 consecutive working days."
+  },
+  {
+    "id": 4,
+    "category": "Payroll",
+    "question": "When is salary paid?",
+    "answer": "Payroll is processed on the 25th of every month. Payslips are published on PeopleHub the same day. If the 25th falls on a weekend or public holiday, salary is paid on the preceding working day."
+  },
+  {
+    "id": 5,
+    "category": "Expenses",
+    "question": "How long do I have to submit an expense claim?",
+    "answer": "Expense claims must be submitted in PeopleHub within 30 days of the expense. Receipts are mandatory for anything above PKR 2,000 (USD 10 abroad). Approved claims are reimbursed within 14 days."
+  },
+  {
+    "id": 6,
+    "category": "Remote Work",
+    "question": "How many days a week can I work from home?",
+    "answer": "Confirmed employees can work remotely up to 3 days per week with line manager approval. Employees on probation work from the office full-time."
+  },
+  {
+    "id": 7,
+    "category": "IT",
+    "question": "How do I access internal systems from outside the office?",
+    "answer": "Connect to the company VPN first. VPN access requires MFA. Contact itsupport@auroradynamics.example if you have not received your VPN profile."
+  },
+  {
+    "id": 8,
+    "category": "IT",
+    "question": "How often do I need to change my password?",
+    "answer": "Passwords must be changed every 90 days. PeopleHub sends a reminder 7 days before expiry."
+  },
+  {
+    "id": 9,
+    "category": "IT",
+    "question": "When can I get a new laptop?",
+    "answer": "Company laptops are refreshed every 3 years. An earlier replacement is only possible if IT Support confirms the device cannot be repaired."
+  },
+  {
+    "id": 10,
+    "category": "Benefits",
+    "question": "Does the health insurance cover dental treatment?",
+    "answer": "No. Dental and optical treatment are not covered. The plan covers inpatient care in full and outpatient care up to PKR 50,000 per year for the employee, spouse and up to 2 children."
+  },
+  {
+    "id": 11,
+    "category": "Benefits",
+    "question": "Is there a referral bonus?",
+    "answer": "Yes. Employees receive a referral bonus of PKR 50,000 once the person they referred completes probation."
+  },
+  {
+    "id": 12,
+    "category": "Benefits",
+    "question": "What is the learning budget and who can use it?",
+    "answer": "Every confirmed employee has a learning budget of USD 1,000 per year for courses, certifications and conferences. It is not available during probation."
+  },
+  {
+    "id": 13,
+    "category": "Probation",
+    "question": "How long is probation?",
+    "answer": "Probation lasts 3 months. It can be extended once by up to 3 more months if the probation review recommends it."
+  },
+  {
+    "id": 14,
+    "category": "Resignation",
+    "question": "What is the notice period?",
+    "answer": "Confirmed employees must give 2 months (60 days) of written notice. During probation the notice period is 2 weeks."
+  },
+  {
+    "id": 15,
+    "category": "General",
+    "question": "What is the dress code?",
+    "answer": "The dress code is smart casual. Formal business attire is expected on client-facing days."
+  }
+]

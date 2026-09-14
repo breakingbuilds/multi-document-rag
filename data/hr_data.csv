@@ -1,0 +1,26 @@
+employee_id,name,department,role,location,join_date,manager,annual_leave_balance,employment_status
+AD-001,Ayesha Rahman,Executive,Chief Executive Officer,Lahore,2015-03-01,,12,Confirmed
+AD-002,Bilal Khan,Executive,Chief Technology Officer,Lahore,2015-03-01,Ayesha Rahman,9,Confirmed
+AD-003,Sana Malik,People Operations,Head of People Operations,Lahore,2016-07-11,Ayesha Rahman,14,Confirmed
+AD-004,Omar Farooq,Engineering,Engineering Manager,Lahore,2017-01-16,Bilal Khan,7,Confirmed
+AD-005,Hira Siddiqui,Data Engineering,Data Engineering Manager,Karachi,2018-05-02,Bilal Khan,11,Confirmed
+AD-006,Zain Abbas,AI Consulting,Head of AI Consulting,Dubai,2019-02-18,Ayesha Rahman,6,Confirmed
+AD-007,Mariam Qureshi,Engineering,Senior Software Engineer,Lahore,2019-09-09,Omar Farooq,15,Confirmed
+AD-008,Hassan Raza,Engineering,Software Engineer,Lahore,2021-03-22,Omar Farooq,8,Confirmed
+AD-009,Fatima Noor,Data Engineering,Senior Data Engineer,Karachi,2020-11-30,Hira Siddiqui,10,Confirmed
+AD-010,Usman Tariq,Data Engineering,Data Engineer,Karachi,2022-06-13,Hira Siddiqui,13,Confirmed
+AD-011,Nadia Hussain,AI Consulting,AI Consultant,Dubai,2021-08-02,Zain Abbas,5,Confirmed
+AD-012,Ahmed Sheikh,AI Consulting,Machine Learning Engineer,Dubai,2022-01-10,Zain Abbas,9,Confirmed
+AD-013,Sara Iqbal,Cloud Engineering,Cloud Engineering Lead,Lahore,2018-10-01,Bilal Khan,4,Confirmed
+AD-014,Ali Hamza,Cloud Engineering,DevOps Engineer,Lahore,2022-09-05,Sara Iqbal,12,Confirmed
+AD-015,Zara Ahmed,Cloud Engineering,Cloud Engineer,Karachi,2023-02-20,Sara Iqbal,16,Confirmed
+AD-016,Kamran Javed,Sales,Head of Sales,Dubai,2019-06-03,Ayesha Rahman,3,Confirmed
+AD-017,Maha Aslam,Sales,Account Executive,Dubai,2023-04-17,Kamran Javed,8,Confirmed
+AD-018,Danish Ali,Finance,Finance Manager,Lahore,2017-08-14,Ayesha Rahman,10,Confirmed
+AD-019,Rabia Khan,Finance,Accountant,Lahore,2021-12-06,Danish Ali,14,Confirmed
+AD-020,Talha Mehmood,People Operations,HR Business Partner,Karachi,2022-03-07,Sana Malik,11,Confirmed
+AD-021,Iqra Baig,Engineering,QA Engineer,Lahore,2023-10-02,Omar Farooq,9,Confirmed
+AD-022,Saad Anwar,Engineering,Software Engineer,Lahore,2026-07-01,Omar Farooq,2,Probation
+AD-023,Laiba Shah,Data Engineering,Data Engineer,Karachi,2026-08-04,Hira Siddiqui,1,Probation
+AD-024,Bilal Ahmed,IT Support,IT Support Specialist,Lahore,2020-04-13,Sara Iqbal,13,Confirmed
+AD-025,Noor Fatima,AI Consulting,Junior AI Consultant,Dubai,2026-06-16,Zain Abbas,3,Probation
