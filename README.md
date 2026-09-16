@@ -61,6 +61,7 @@ flowchart LR
 | LLM | **Groq** (free) or **Hugging Face Inference Providers** through one OpenAI-compatible client; live model list |
 | Answers | Grounded prompt with numbered passages; `[n]` citations (model variants such as `【2】`, `【2†L1-L4】`, `[1, 3]`, `[2-4]` are normalised); explicit "I don't have enough information" refusal |
 | CLI | Interactive loop with live switching of provider, model, strategy and top-k (`/provider`, `/model`, `/strategy`, `/k`); rewrite and chunk inspection; `--list-models`; `--evaluate` prints the four metrics under every answer |
+| Web app | `streamlit run app.py` — the same pipeline behind a browser page: chat with citation chips, rewrites and chunks on demand, per-answer evaluation, document upload + re-index, and the two evaluation reports side by side |
 | Inspection | `results/chunks.json` — every chunk exactly as embedded (id, source, locator, text); `results/ingest_manifest.json` — per-file counts and timings |
 | Evaluation | Hand-written metrics **and** RAGAS on the same outputs, side-by-side comparison, retrieval-vs-generation diagnosis |
 
@@ -79,6 +80,7 @@ multi_document_rag_project/
 ├── src/
 │   ├── config.py                # every setting (.env + defaults)
 │   ├── console.py               # framed / coloured console output for the CLIs
+│   ├── frontend.py              # helpers shared by main.py and app.py (live evaluator, manifest checks)
 │   ├── document_loader.py       # extension -> loader dispatch, load_directory()
 │   ├── text_splitter.py         # recursive character splitter, Chunk + chunk_id
 │   ├── embeddings.py            # EmbeddingModel, centroid(), cosine_similarity()
@@ -102,8 +104,12 @@ multi_document_rag_project/
 ├── docs/
 │   ├── Multi_Document_RAG_Presentation.pptx        # slide deck (light theme)
 │   ├── Multi_Document_RAG_Presentation_Dark.pptx   # same deck, dark theme
+│   ├── Streamlit_UI_Presentation.pptx / _Dark.pptx  # the web-front-end homework deck
+│   ├── screenshots/                                # app screenshots used in the docs
 │   └── Multi_Document_RAG_Project_Report.docx      # project report
 ├── main.py                      # CLI (interactive loop / one-shot questions)
+├── app.py                       # web app (Streamlit) on the same pipeline
+├── ui/                          # web-app rendering helpers: components.py, styles.py
 ├── ingest.py                    # ingestion pipeline
 ├── requirements.txt  .env.example  .gitignore  README.md
 └── chroma_db/                   # created at ingest time (git-ignored)
@@ -279,6 +285,45 @@ Inside the interactive loop you can change settings without restarting:
 
 ---
 
+### The web app — `streamlit run app.py`
+
+The command-line app is the reference front-end; the web app is the same pipeline behind a
+browser page, for demos and for people who would rather click than type commands.
+
+```bash
+streamlit run app.py
+```
+
+![Ask tab](docs/screenshots/app_ask.png)
+
+| Tab | What it does | Same code as |
+|---|---|---|
+| **Ask** | chat with the documents; answers carry `[n]` citation chips (hover → source and locator), a sources table with ★ for cited files, and expanders for the query rewrites and the retrieved chunks (score, similarity, hit count, per-phrasing rank, text); an optional per-answer **Evaluation** block | `RAGPipeline.ask()`, `AnswerEvaluator` |
+| **Knowledge base** | what the index holds (from the manifest), the files in `data/`, drag-and-drop upload, a remove-files control (the index follows on the next rebuild), rebuild / append with chunk size and overlap, and a searchable chunk browser over `results/chunks.json` | `ingest()` |
+| **Evaluation** | run Stage A, the manual evaluation and RAGAS from the browser with progress; mean scores as a grouped chart, per-question table with diagnosis and notes, CSV downloads | `run_pipeline_on_dataset()`, `manual_evaluation.evaluate_rows()`, `ragas_evaluation.evaluate_rows()` |
+
+The sidebar mirrors the CLI's settings: provider (with a ready / not-ready light, Ollama included),
+model (curated first, then the live list), rewriting strategy with descriptions, k, and the three
+display toggles. The index summary and the "`.env` differs from the index" / "`data/` changed"
+warnings are the same checks `main.py` prints at start-up.
+
+![Evaluation tab](docs/screenshots/app_evaluation.png)
+
+How it is wired — nothing in `src/` or `evaluation/` changed to add the app:
+
+* the helpers both front-ends need (`AnswerEvaluator`, ground-truth lookup, manifest checks,
+  provider-name resolution) moved from `main.py` into `src/frontend.py`; the CLI imports them;
+* `ui/components.py` renders a `RAGResponse` the way `src/console.py` prints it;
+* the embedding model, vector store and judge are created once per server process with
+  `st.cache_resource` and shared by every browser tab; switching provider or model only rebuilds
+  the LLM client through `pipeline.set_llm()`; an ingest clears the caches so counts and manifest
+  refresh;
+* long runs (Stage A, RAGAS) show progress through `st.status` and the same `progress` callback the
+  scripts use — leave the tab open while they run.
+
+Both front-ends can be open at the same time; the self-healing ChromaDB handle covers one of them
+rebuilding the index while the other is answering.
+
 ## 5. Query rewriting
 
 Users type short, informal questions; documents are formal. Rewriting closes
@@ -397,6 +442,9 @@ a metric that fails is recorded as blank with the error in `ragas_errors`.
   from that list; `--model <id>` on the command line accepts anything. Defaults come from
   `GROQ_MODEL` / `HF_MODEL`. Note the difference between the two commands: `/provider huggingface`
   switches provider, `/model <id>` switches model *within* the current provider.
+* **Two front-ends, one pipeline** — `main.py` (CLI) and `app.py` (Streamlit) both call
+  `RAGPipeline.ask()`; a new setting belongs in `src/config.py`, then one widget in the sidebar and
+  one flag/command in the CLI. `streamlit` is only needed for the web app.
 * **Three providers, one client** — Groq (free plan, default), Hugging Face (router,
   140+ models) and Ollama (local; the banner shows *ready* when its server answers,
   otherwise *not running* with the command to start it). **Add another** by adding one
@@ -431,6 +479,8 @@ a metric that fails is recorded as blank with the error in `ragas_errors`.
 | `ollama … not running` / `Connection error` | Ollama is not installed or not started: install it, run `ollama serve` (the desktop app does this) and `ollama pull llama3.2`; `/models` then lists what is installed |
 | `'X' is not in the model list for groq` | pick an id from `/models`; Groq's Llama 3.x models are Enterprise-only and are filtered out |
 | a model, rate limit or outage error mid-session | printed as one red line; the session continues — switch with `/provider` / `/model` or wait |
+| web app shows old counts after an ingest from the CLI | the pipeline is cached per server process — click **Ingest now** in the app (which clears the caches) or restart `streamlit run app.py` |
+| `AttributeError: module 'ui.components' has no attribute …` while developing | Streamlit hot-reloads `app.py` but not imported modules — restart the server after editing `ui/` or `src/` |
 | frames look too narrow / too wide | the frame follows the terminal (re-measured whenever a section opens, cap 140); `RAG_WIDTH=<n>` forces a width, `NO_COLOR=1` / `RAG_ASCII=1` strip colour / box characters |
 
 ---

@@ -2,6 +2,8 @@
 main.py
 -------
 Command-line application: ask questions, see rewrites, sources and the answer.
+(The web front-end, app.py, is the same pipeline behind a browser page; the
+helpers both share live in src/frontend.py.)
 Output is framed and coloured by src/console.py (plain ASCII / no colour when
 piped, or with NO_COLOR=1 / RAG_ASCII=1).
 
@@ -55,23 +57,20 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-import difflib
-import json
-import re
 
-from evaluation.evaluation_utils import diagnose, load_eval_dataset
-from evaluation.manual_evaluation import (
-    answer_relevance_llm,
-    context_precision_embeddings,
-    context_recall_tokens,
-    faithfulness_llm,
-)
 from src import config
 from src.console import ui
 from src.document_loader import file_signature
+from src.frontend import (
+    AnswerEvaluator,
+    data_changes,
+    index_settings,
+    relevance_label,
+    resolve_provider,
+)
 from openai import APIError
 
-from src.llm import PROVIDERS, MissingAPIKeyError, get_llm, list_models, provider_status
+from src.llm import PROVIDERS, MissingAPIKeyError, list_models, provider_status
 from src.query_rewriter import STRATEGY_DESCRIPTIONS, RewriteStrategy
 from src.rag_pipeline import RAGPipeline, RAGResponse
 
@@ -152,79 +151,6 @@ def print_response(response: RAGResponse, show_rewrites: bool, show_chunks: bool
 # ---------------------------------------------------------------------- #
 # Per-answer evaluation
 # ---------------------------------------------------------------------- #
-def _normalize(text: str) -> str:
-    """Lower-case, drop punctuation and extra spaces -- for question matching."""
-    return re.sub(r"[^a-z0-9 ]+", " ", text.lower()).strip()
-
-
-def find_ground_truth(question: str, dataset: list[dict]) -> dict | None:
-    """Return the evaluation entry whose question matches `question`.
-
-    Exact matches after normalisation win; otherwise a close paraphrase
-    (difflib ratio >= 0.9, e.g. a missing question mark or an extra word)
-    is accepted. Anything looser would risk scoring an answer against the
-    wrong ground truth.
-    """
-    target = _normalize(question)
-    for entry in dataset:
-        if _normalize(entry["question"]) == target:
-            return entry
-    best, best_ratio = None, 0.0
-    for entry in dataset:
-        ratio = difflib.SequenceMatcher(None, target, _normalize(entry["question"])).ratio()
-        if ratio > best_ratio:
-            best, best_ratio = entry, ratio
-    return best if best_ratio >= 0.9 else None
-
-
-def relevance_label(score: float | None) -> str:
-    """The brief reports answer relevance as a word (High) -- map the 0-1 score."""
-    if score is None:
-        return "n/a"
-    word = "High" if score >= 0.75 else "Medium" if score >= 0.5 else "Low"
-    return f"{word} ({score:.2f})"
-
-
-class AnswerEvaluator:
-    """Scores a single RAGResponse with the manual metrics and prints the block.
-
-    Created once per CLI session: it lazily builds the judge LLM (the
-    provider/model from RAGAS_JUDGE_* in .env) and loads the evaluation
-    dataset used to look up ground truth.
-    """
-
-    def __init__(self, embedder):
-        self.embedder = embedder
-        self._judge = None
-        self.dataset = load_eval_dataset()
-
-    @property
-    def judge(self):
-        if self._judge is None:
-            self._judge = get_llm(config.RAGAS_JUDGE_PROVIDER, config.RAGAS_JUDGE_MODEL)
-        return self._judge
-
-    def evaluate(self, response: RAGResponse) -> dict:
-        contexts = response.contexts
-        faith, faith_note = faithfulness_llm(self.judge, response.question, response.answer, contexts)
-        relevance, _ = answer_relevance_llm(self.judge, response.question, response.answer)
-
-        truth = find_ground_truth(response.question, self.dataset)
-        precision = recall = None
-        if truth and contexts:
-            precision, _ = context_precision_embeddings(self.embedder, truth["ground_truth"], contexts)
-            recall = context_recall_tokens(truth["ground_truth"], contexts)
-
-        metrics = {
-            "faithfulness": faith,
-            "answer_relevance": relevance,
-            "context_precision": precision,
-            "context_recall": recall,
-        }
-        return {**metrics, "ground_truth": truth, "faithfulness_note": faith_note,
-                "diagnosis": diagnose(metrics)}
-
-
 def print_evaluation(result: dict) -> None:
     """Render the metrics in the order used by the project brief, with score bars."""
     fmt = lambda v: ("n/a" if v is None else f"{v:.2f}").ljust(12)
@@ -243,30 +169,6 @@ def print_evaluation(result: dict) -> None:
         verdict = result["diagnosis"]
         ui.line(f"{ui.dim('Diagnosis'.ljust(19))} {ui.good(verdict) if verdict == 'ok' else ui.bad(verdict)}")
     ui.end()
-
-
-def index_settings() -> dict | None:
-    """What the stored index was BUILT with, from results/ingest_manifest.json.
-
-    The manifest is the truth for chunk size / overlap: .env may have been
-    edited after the last ingestion, in which case the index is stale until
-    `python ingest.py` is run again. Returns None if no manifest.
-    """
-    try:
-        return json.loads(config.INGEST_MANIFEST_FILE.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        return None
-
-
-def data_changes(manifest: dict) -> dict[str, list[str]]:
-    """Compare data/ now with what the manifest recorded at ingest time."""
-    before = manifest.get("files_signature") or {}
-    now = file_signature(config.DATA_DIR)
-    return {
-        "added": sorted(f for f in now if f not in before),
-        "removed": sorted(f for f in before if f not in now),
-        "modified": sorted(f for f in now if f in before and now[f] != before[f]),
-    }
 
 
 def print_index_line(count: int, embedding_model: str) -> None:
@@ -297,16 +199,6 @@ def print_index_line(count: int, embedding_model: str) -> None:
 
 
 # Accept the ways people actually type a provider name: "Hugging Face", "hf", "HuggingFace".
-_PROVIDER_ALIASES = {"hf": "huggingface", "hugging": "huggingface"}
-
-
-def resolve_provider(text: str) -> str | None:
-    """'Hugging Face' / 'hf' / 'GROQ' -> a key of PROVIDERS, or None if it is not a provider."""
-    key = "".join(ch for ch in text.lower() if ch.isalnum())
-    key = _PROVIDER_ALIASES.get(key, key)
-    return key if key in PROVIDERS else None
-
-
 def print_models(provider: str) -> None:
     """List the models a provider offers (live from its API, static fallback)."""
     status = provider_status()[provider]

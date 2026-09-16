@@ -49,3 +49,6 @@ langchain-openai<1
 
 # --- Misc -------------------------------------------------------------------
 tqdm>=4.66            # progress bars during ingestion
+
+# Web front-end (app.py) -- optional; the CLI works without it
+streamlit>=1.40
