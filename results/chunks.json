@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T15:05:09+00:00",
-  "chunk_size": 700,
+  "generated_at": "2026-09-17T21:08:28+00:00",
+  "chunk_size": 800,
   "chunk_overlap": 150,
-  "total_chunks": 93,
+  "total_chunks": 89,
   "chunks": [
     {
       "order": 0,
@@ -11,8 +11,8 @@
       "file_type": "pdf",
       "locator": "page 1",
       "chunk_index": 0,
-      "characters": 607,
-      "text": "Aurora Dynamics (Pvt.) Ltd.\nCompany Policy Handbook - Version 4.2 (September 2026)\nThis document sets out the core policies that govern day-to-day work at Aurora Dynamics. Please read it\ncarefully and contact People Operations with any questions.\n1. Introduction and Scope\nThis Company Policy document applies to all employees, contractors and interns of Aurora Dynamics\n(Pvt.) Ltd. (\"Aurora Dynamics\" or \"the Company\") across all offices, including the Lahore headquarters and\nthe Karachi and Dubai offices.\nThe policy was last reviewed on 1 September 2026 and is reviewed annually by the People Operations",
+      "characters": 720,
+      "text": "Aurora Dynamics (Pvt.) Ltd.\nCompany Policy Handbook - Version 4.2 (September 2026)\nThis document sets out the core policies that govern day-to-day work at Aurora Dynamics. Please read it\ncarefully and contact People Operations with any questions.\n1. Introduction and Scope\nThis Company Policy document applies to all employees, contractors and interns of Aurora Dynamics\n(Pvt.) Ltd. (\"Aurora Dynamics\" or \"the Company\") across all offices, including the Lahore headquarters and\nthe Karachi and Dubai offices.\nThe policy was last reviewed on 1 September 2026 and is reviewed annually by the People Operations\nteam. Where this document conflicts with a signed employment contract, the contract prevails.\n2. Code of Conduct",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -21,8 +21,8 @@
         "chunk_index": 0,
         "global_index": 0,
         "char_start": 0,
-        "char_end": 607,
-        "char_count": 607,
+        "char_end": 720,
+        "char_count": 720,
         "chunk_id": "company-policy__p1__c0"
       }
     },
@@ -33,8 +33,8 @@
       "file_type": "pdf",
       "locator": "page 1",
       "chunk_index": 1,
-      "characters": 684,
-      "text": "the Karachi and Dubai offices.\nThe policy was last reviewed on 1 September 2026 and is reviewed annually by the People Operations\nteam. Where this document conflicts with a signed employment contract, the contract prevails.\n2. Code of Conduct\nEmployees are expected to act with integrity, treat colleagues and clients with respect, and protect\nconfidential information. Harassment or discrimination of any kind is not tolerated and should be reported\nto People Operations or through the anonymous ethics hotline.\nConflicts of interest, including outside employment with a competitor, must be disclosed in writing to your\nline manager before they arise.\n3. Working Hours and Attendance",
+      "characters": 758,
+      "text": "team. Where this document conflicts with a signed employment contract, the contract prevails.\n2. Code of Conduct\nEmployees are expected to act with integrity, treat colleagues and clients with respect, and protect\nconfidential information. Harassment or discrimination of any kind is not tolerated and should be reported\nto People Operations or through the anonymous ethics hotline.\nConflicts of interest, including outside employment with a competitor, must be disclosed in writing to your\nline manager before they arise.\n3. Working Hours and Attendance\nStandard working hours are Monday to Friday, 9:00 AM to 6:00 PM, with a one-hour lunch break, for a\ntotal of 40 working hours per week. Core hours are 10:00 AM to 4:00 PM, during which all employees must",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -42,9 +42,9 @@
         "total_pages": 3,
         "chunk_index": 1,
         "global_index": 1,
-        "char_start": 478,
-        "char_end": 1162,
-        "char_count": 684,
+        "char_start": 608,
+        "char_end": 1366,
+        "char_count": 758,
         "chunk_id": "company-policy__p1__c1"
       }
     },
@@ -55,8 +55,8 @@
       "file_type": "pdf",
       "locator": "page 1",
       "chunk_index": 2,
-      "characters": 602,
-      "text": "line manager before they arise.\n3. Working Hours and Attendance\nStandard working hours are Monday to Friday, 9:00 AM to 6:00 PM, with a one-hour lunch break, for a\ntotal of 40 working hours per week. Core hours are 10:00 AM to 4:00 PM, during which all employees must\nbe available regardless of where they work.\nOvertime must be approved in advance by the line manager. Approved overtime is compensated with time\noff in lieu at a rate of 1:1, to be taken within 60 days.\nAttendance is recorded through the PeopleHub portal. Repeated unexplained lateness may lead to\ndisciplinary action under Section 8.",
+      "characters": 438,
+      "text": "total of 40 working hours per week. Core hours are 10:00 AM to 4:00 PM, during which all employees must\nbe available regardless of where they work.\nOvertime must be approved in advance by the line manager. Approved overtime is compensated with time\noff in lieu at a rate of 1:1, to be taken within 60 days.\nAttendance is recorded through the PeopleHub portal. Repeated unexplained lateness may lead to\ndisciplinary action under Section 8.",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -64,9 +64,9 @@
         "total_pages": 3,
         "chunk_index": 2,
         "global_index": 2,
-        "char_start": 1099,
+        "char_start": 1263,
         "char_end": 1701,
-        "char_count": 602,
+        "char_count": 438,
         "chunk_id": "company-policy__p1__c2"
       }
     },
@@ -77,8 +77,8 @@
       "file_type": "pdf",
       "locator": "page 2",
       "chunk_index": 0,
-      "characters": 659,
-      "text": "4. Remote and Hybrid Work Policy\nAurora Dynamics operates a hybrid work model. After successfully completing probation, employees may\nwork remotely for up to 3 days per week, subject to written approval from their line manager. Employees\non probation are expected to work from the office full-time unless otherwise agreed.\nRemote work days must be logged in PeopleHub at least one day in advance. Employees working\nremotely must be reachable during core hours (10:00 AM to 4:00 PM) and must connect through the\ncompany VPN when accessing internal systems.\nThe Company may require in-office attendance for client visits, onboarding, team events and performance",
+      "characters": 730,
+      "text": "4. Remote and Hybrid Work Policy\nAurora Dynamics operates a hybrid work model. After successfully completing probation, employees may\nwork remotely for up to 3 days per week, subject to written approval from their line manager. Employees\non probation are expected to work from the office full-time unless otherwise agreed.\nRemote work days must be logged in PeopleHub at least one day in advance. Employees working\nremotely must be reachable during core hours (10:00 AM to 4:00 PM) and must connect through the\ncompany VPN when accessing internal systems.\nThe Company may require in-office attendance for client visits, onboarding, team events and performance\nreviews, even on a scheduled remote day.\n5. Probation and Confirmation",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -87,8 +87,8 @@
         "chunk_index": 0,
         "global_index": 3,
         "char_start": 0,
-        "char_end": 659,
-        "char_count": 659,
+        "char_end": 730,
+        "char_count": 730,
         "chunk_id": "company-policy__p2__c0"
       }
     },
@@ -99,8 +99,8 @@
       "file_type": "pdf",
       "locator": "page 2",
       "chunk_index": 1,
-      "characters": 627,
-      "text": "company VPN when accessing internal systems.\nThe Company may require in-office attendance for client visits, onboarding, team events and performance\nreviews, even on a scheduled remote day.\n5. Probation and Confirmation\nAll new employees serve a probation period of 3 months from their start date. During probation, either\nparty may terminate employment with 2 weeks' notice.\nAt the end of probation the line manager completes a probation review in PeopleHub. Based on the\nreview, employment is either confirmed or the probation period is extended once by up to 3 additional\nmonths. Probation cannot be extended more than once.",
+      "characters": 744,
+      "text": "reviews, even on a scheduled remote day.\n5. Probation and Confirmation\nAll new employees serve a probation period of 3 months from their start date. During probation, either\nparty may terminate employment with 2 weeks' notice.\nAt the end of probation the line manager completes a probation review in PeopleHub. Based on the\nreview, employment is either confirmed or the probation period is extended once by up to 3 additional\nmonths. Probation cannot be extended more than once.\nEmployees on probation are not eligible for remote work days (Section 4) or the annual learning budget\nuntil their employment is confirmed.\n6. Expense and Travel Policy\nEmployees may claim reimbursement for reasonable business expenses. All claims must be submitted",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -108,9 +108,9 @@
         "total_pages": 3,
         "chunk_index": 1,
         "global_index": 4,
-        "char_start": 511,
-        "char_end": 1138,
-        "char_count": 627,
+        "char_start": 660,
+        "char_end": 1404,
+        "char_count": 744,
         "chunk_id": "company-policy__p2__c1"
       }
     },
@@ -121,8 +121,8 @@
       "file_type": "pdf",
       "locator": "page 2",
       "chunk_index": 2,
-      "characters": 631,
-      "text": "months. Probation cannot be extended more than once.\nEmployees on probation are not eligible for remote work days (Section 4) or the annual learning budget\nuntil their employment is confirmed.\n6. Expense and Travel Policy\nEmployees may claim reimbursement for reasonable business expenses. All claims must be submitted\nthrough PeopleHub within 30 days of the expense being incurred; claims older than 30 days are rejected\nautomatically.\nReceipts are mandatory for every expense above PKR 2,000 (or USD 10 for expenses incurred abroad).\nApproved claims are reimbursed with the next payroll run, no later than 14 days after approval.",
+      "characters": 711,
+      "text": "6. Expense and Travel Policy\nEmployees may claim reimbursement for reasonable business expenses. All claims must be submitted\nthrough PeopleHub within 30 days of the expense being incurred; claims older than 30 days are rejected\nautomatically.\nReceipts are mandatory for every expense above PKR 2,000 (or USD 10 for expenses incurred abroad).\nApproved claims are reimbursed with the next payroll run, no later than 14 days after approval.\nTravel allowances: a daily per diem of PKR 5,000 applies to domestic travel and USD 75 to international\ntravel. Flights are booked in economy class. Hotel accommodation is capped at PKR 15,000 per night for\ndomestic travel unless approved by the Head of People Operations.",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
@@ -130,102 +130,58 @@
         "total_pages": 3,
         "chunk_index": 2,
         "global_index": 5,
-        "char_start": 1086,
-        "char_end": 1717,
-        "char_count": 631,
+        "char_start": 1279,
+        "char_end": 1990,
+        "char_count": 711,
         "chunk_id": "company-policy__p2__c2"
       }
     },
     {
       "order": 6,
-      "chunk_id": "company-policy__p2__c3",
-      "source": "company_policy.pdf",
-      "file_type": "pdf",
-      "locator": "page 2",
-      "chunk_index": 3,
-      "characters": 368,
-      "text": "Approved claims are reimbursed with the next payroll run, no later than 14 days after approval.\nTravel allowances: a daily per diem of PKR 5,000 applies to domestic travel and USD 75 to international\ntravel. Flights are booked in economy class. Hotel accommodation is capped at PKR 15,000 per night for\ndomestic travel unless approved by the Head of People Operations.",
-      "metadata": {
-        "source": "company_policy.pdf",
-        "file_type": "pdf",
-        "page": 2,
-        "total_pages": 3,
-        "chunk_index": 3,
-        "global_index": 6,
-        "char_start": 1622,
-        "char_end": 1990,
-        "char_count": 368,
-        "chunk_id": "company-policy__p2__c3"
-      }
-    },
-    {
-      "order": 7,
       "chunk_id": "company-policy__p3__c0",
       "source": "company_policy.pdf",
       "file_type": "pdf",
       "locator": "page 3",
       "chunk_index": 0,
-      "characters": 605,
-      "text": "7. IT and Information Security Policy\nAll company laptops are managed devices. Passwords must be changed every 90 days and multi-factor\nauthentication (MFA) is mandatory for email, PeopleHub, the VPN and all cloud consoles.\nPersonal USB storage devices may not be connected to company laptops. Company data must only be\nstored in approved locations (company Google Drive and the internal GitLab).\nSuspected phishing emails must be reported to security@auroradynamics.example within one hour of\nreceipt. Lost or stolen devices must be reported to IT Support immediately so the device can be remotely\nwiped.",
+      "characters": 780,
+      "text": "7. IT and Information Security Policy\nAll company laptops are managed devices. Passwords must be changed every 90 days and multi-factor\nauthentication (MFA) is mandatory for email, PeopleHub, the VPN and all cloud consoles.\nPersonal USB storage devices may not be connected to company laptops. Company data must only be\nstored in approved locations (company Google Drive and the internal GitLab).\nSuspected phishing emails must be reported to security@auroradynamics.example within one hour of\nreceipt. Lost or stolen devices must be reported to IT Support immediately so the device can be remotely\nwiped.\nCompany laptops are refreshed every 3 years. Employees may request a replacement earlier only if the\ndevice fails a repair assessment by IT Support.\n8. Disciplinary Procedure",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
         "page": 3,
         "total_pages": 3,
         "chunk_index": 0,
-        "global_index": 7,
+        "global_index": 6,
         "char_start": 0,
-        "char_end": 605,
-        "char_count": 605,
+        "char_end": 780,
+        "char_count": 780,
         "chunk_id": "company-policy__p3__c0"
       }
     },
     {
-      "order": 8,
+      "order": 7,
       "chunk_id": "company-policy__p3__c1",
       "source": "company_policy.pdf",
       "file_type": "pdf",
       "locator": "page 3",
       "chunk_index": 1,
-      "characters": 699,
-      "text": "receipt. Lost or stolen devices must be reported to IT Support immediately so the device can be remotely\nwiped.\nCompany laptops are refreshed every 3 years. Employees may request a replacement earlier only if the\ndevice fails a repair assessment by IT Support.\n8. Disciplinary Procedure\nMinor breaches result in a verbal warning, followed by a written warning if repeated. Serious misconduct,\nincluding breaches of Section 7, may result in immediate suspension pending investigation and can lead to\ntermination.\nEmployees have the right to be accompanied by a colleague at any disciplinary meeting and may appeal a\ndecision in writing to the Head of People Operations within 7 days.\n9. Policy Review",
+      "characters": 635,
+      "text": "device fails a repair assessment by IT Support.\n8. Disciplinary Procedure\nMinor breaches result in a verbal warning, followed by a written warning if repeated. Serious misconduct,\nincluding breaches of Section 7, may result in immediate suspension pending investigation and can lead to\ntermination.\nEmployees have the right to be accompanied by a colleague at any disciplinary meeting and may appeal a\ndecision in writing to the Head of People Operations within 7 days.\n9. Policy Review\nThis policy is owned by People Operations and reviewed every 12 months. Questions about any section\nshould be sent to people@auroradynamics.example.",
       "metadata": {
         "source": "company_policy.pdf",
         "file_type": "pdf",
         "page": 3,
         "total_pages": 3,
         "chunk_index": 1,
-        "global_index": 8,
-        "char_start": 494,
-        "char_end": 1193,
-        "char_count": 699,
+        "global_index": 7,
+        "char_start": 707,
+        "char_end": 1342,
+        "char_count": 635,
         "chunk_id": "company-policy__p3__c1"
       }
     },
     {
-      "order": 9,
-      "chunk_id": "company-policy__p3__c2",
-      "source": "company_policy.pdf",
-      "file_type": "pdf",
-      "locator": "page 3",
-      "chunk_index": 2,
-      "characters": 233,
-      "text": "decision in writing to the Head of People Operations within 7 days.\n9. Policy Review\nThis policy is owned by People Operations and reviewed every 12 months. Questions about any section\nshould be sent to people@auroradynamics.example.",
-      "metadata": {
-        "source": "company_policy.pdf",
-        "file_type": "pdf",
-        "page": 3,
-        "total_pages": 3,
-        "chunk_index": 2,
-        "global_index": 9,
-        "char_start": 1109,
-        "char_end": 1342,
-        "char_count": 233,
-        "chunk_id": "company-policy__p3__c2"
-      }
-    },
-    {
-      "order": 10,
+      "order": 8,
       "chunk_id": "employee-handbook__s-aurora-dynamics-employee-2b10__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -238,7 +194,7 @@
         "file_type": "docx",
         "section": "Aurora Dynamics Employee Handbook",
         "chunk_index": 0,
-        "global_index": 10,
+        "global_index": 8,
         "char_start": 0,
         "char_end": 78,
         "char_count": 78,
@@ -246,7 +202,7 @@
       }
     },
     {
-      "order": 11,
+      "order": 9,
       "chunk_id": "employee-handbook__s-welcome-to-aurora-dynami-276a__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -259,7 +215,7 @@
         "file_type": "docx",
         "section": "Welcome to Aurora Dynamics",
         "chunk_index": 0,
-        "global_index": 11,
+        "global_index": 9,
         "char_start": 0,
         "char_end": 380,
         "char_count": 380,
@@ -267,7 +223,7 @@
       }
     },
     {
-      "order": 12,
+      "order": 10,
       "chunk_id": "employee-handbook__s-onboarding-checklist-18d5__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -280,7 +236,7 @@
         "file_type": "docx",
         "section": "Onboarding Checklist",
         "chunk_index": 0,
-        "global_index": 12,
+        "global_index": 10,
         "char_start": 0,
         "char_end": 331,
         "char_count": 331,
@@ -288,7 +244,7 @@
       }
     },
     {
-      "order": 13,
+      "order": 11,
       "chunk_id": "employee-handbook__s-your-first-90-days-proba-85dc__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -301,7 +257,7 @@
         "file_type": "docx",
         "section": "Your First 90 Days (Probation)",
         "chunk_index": 0,
-        "global_index": 13,
+        "global_index": 11,
         "char_start": 0,
         "char_end": 382,
         "char_count": 382,
@@ -309,91 +265,70 @@
       }
     },
     {
-      "order": 14,
+      "order": 12,
       "chunk_id": "employee-handbook__s-leave-at-a-glance-da01__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
       "locator": "section: Leave at a Glance",
       "chunk_index": 0,
-      "characters": 629,
-      "text": "Leave at a Glance\nEmployees receive 20 paid annual leave days per calendar year. The table below summarises every leave type; the full rules, including carryover limits, are in the Leave Policy.\nLeave type: Annual leave | Entitlement per year: 20 paid days | Notes: Up to 5 unused days may be carried over\nLeave type: Sick leave | Entitlement per year: 10 paid days | Notes: Medical certificate after 2 consecutive days\nLeave type: Casual leave | Entitlement per year: 6 paid days | Notes: For urgent personal matters\nLeave type: Maternity leave | Entitlement per year: 12 weeks paid | Notes: Notify People Ops 8 weeks in advance",
+      "characters": 740,
+      "text": "Leave at a Glance\nEmployees receive 20 paid annual leave days per calendar year. The table below summarises every leave type; the full rules, including carryover limits, are in the Leave Policy.\nLeave type: Annual leave | Entitlement per year: 20 paid days | Notes: Up to 5 unused days may be carried over\nLeave type: Sick leave | Entitlement per year: 10 paid days | Notes: Medical certificate after 2 consecutive days\nLeave type: Casual leave | Entitlement per year: 6 paid days | Notes: For urgent personal matters\nLeave type: Maternity leave | Entitlement per year: 12 weeks paid | Notes: Notify People Ops 8 weeks in advance\nLeave type: Paternity leave | Entitlement per year: 2 weeks paid | Notes: To be taken within 3 months of birth",
       "metadata": {
         "source": "employee_handbook.docx",
         "file_type": "docx",
         "section": "Leave at a Glance",
         "chunk_index": 0,
-        "global_index": 14,
+        "global_index": 12,
         "char_start": 0,
-        "char_end": 629,
-        "char_count": 629,
+        "char_end": 740,
+        "char_count": 740,
         "chunk_id": "employee-handbook__s-leave-at-a-glance-da01__c0"
       }
     },
     {
-      "order": 15,
+      "order": 13,
       "chunk_id": "employee-handbook__s-leave-at-a-glance-da01__c1",
       "source": "employee_handbook.docx",
       "file_type": "docx",
       "locator": "section: Leave at a Glance",
       "chunk_index": 1,
-      "characters": 425,
-      "text": "Leave type: Maternity leave | Entitlement per year: 12 weeks paid | Notes: Notify People Ops 8 weeks in advance\nLeave type: Paternity leave | Entitlement per year: 2 weeks paid | Notes: To be taken within 3 months of birth\nLeave type: Adoption leave | Entitlement per year: 4 weeks paid | Notes: Primary carer\nLeave type: Unpaid leave | Entitlement per year: Up to 30 days | Notes: Requires Head of People Operations approval",
+      "characters": 313,
+      "text": "Leave type: Paternity leave | Entitlement per year: 2 weeks paid | Notes: To be taken within 3 months of birth\nLeave type: Adoption leave | Entitlement per year: 4 weeks paid | Notes: Primary carer\nLeave type: Unpaid leave | Entitlement per year: Up to 30 days | Notes: Requires Head of People Operations approval",
       "metadata": {
         "source": "employee_handbook.docx",
         "file_type": "docx",
         "section": "Leave at a Glance",
         "chunk_index": 1,
-        "global_index": 15,
-        "char_start": 518,
+        "global_index": 13,
+        "char_start": 630,
         "char_end": 943,
-        "char_count": 425,
+        "char_count": 313,
         "chunk_id": "employee-handbook__s-leave-at-a-glance-da01__c1"
       }
     },
     {
-      "order": 16,
+      "order": 14,
       "chunk_id": "employee-handbook__s-benefits-e654__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
       "locator": "section: Benefits",
       "chunk_index": 0,
-      "characters": 651,
-      "text": "Benefits\nAurora Dynamics offers the following benefits to all confirmed employees. Benefits are administered through PeopleHub.\nBenefit: Health insurance | Details: Covers the employee, spouse and up to 2 children. Inpatient care fully covered; outpatient up to PKR 50,000 per year. Dental and optical treatment are NOT covered.\nBenefit: Provident fund | Details: 8% employee contribution matched by an 8% Company contribution.\nBenefit: Learning budget | Details: USD 1,000 per year for courses, certifications and conferences (available after probation).\nBenefit: Referral bonus | Details: PKR 50,000 paid after the referred hire completes probation.",
+      "characters": 718,
+      "text": "Benefits\nAurora Dynamics offers the following benefits to all confirmed employees. Benefits are administered through PeopleHub.\nBenefit: Health insurance | Details: Covers the employee, spouse and up to 2 children. Inpatient care fully covered; outpatient up to PKR 50,000 per year. Dental and optical treatment are NOT covered.\nBenefit: Provident fund | Details: 8% employee contribution matched by an 8% Company contribution.\nBenefit: Learning budget | Details: USD 1,000 per year for courses, certifications and conferences (available after probation).\nBenefit: Referral bonus | Details: PKR 50,000 paid after the referred hire completes probation.\nBenefit: Laptop | Details: Company laptop refreshed every 3 years.",
       "metadata": {
         "source": "employee_handbook.docx",
         "file_type": "docx",
         "section": "Benefits",
         "chunk_index": 0,
-        "global_index": 16,
+        "global_index": 14,
         "char_start": 0,
-        "char_end": 651,
-        "char_count": 651,
+        "char_end": 718,
+        "char_count": 718,
         "chunk_id": "employee-handbook__s-benefits-e654__c0"
       }
     },
     {
-      "order": 17,
-      "chunk_id": "employee-handbook__s-benefits-e654__c1",
-      "source": "employee_handbook.docx",
-      "file_type": "docx",
-      "locator": "section: Benefits",
-      "chunk_index": 1,
-      "characters": 162,
-      "text": "Benefit: Referral bonus | Details: PKR 50,000 paid after the referred hire completes probation.\nBenefit: Laptop | Details: Company laptop refreshed every 3 years.",
-      "metadata": {
-        "source": "employee_handbook.docx",
-        "file_type": "docx",
-        "section": "Benefits",
-        "chunk_index": 1,
-        "global_index": 17,
-        "char_start": 556,
-        "char_end": 718,
-        "char_count": 162,
-        "chunk_id": "employee-handbook__s-benefits-e654__c1"
-      }
-    },
-    {
-      "order": 18,
+      "order": 15,
       "chunk_id": "employee-handbook__s-performance-and-growth-f00b__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -406,7 +341,7 @@
         "file_type": "docx",
         "section": "Performance and Growth",
         "chunk_index": 0,
-        "global_index": 18,
+        "global_index": 15,
         "char_start": 0,
         "char_end": 212,
         "char_count": 212,
@@ -414,7 +349,7 @@
       }
     },
     {
-      "order": 19,
+      "order": 16,
       "chunk_id": "employee-handbook__s-resignation-and-notice-p-b741__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -427,7 +362,7 @@
         "file_type": "docx",
         "section": "Resignation and Notice Period",
         "chunk_index": 0,
-        "global_index": 19,
+        "global_index": 16,
         "char_start": 0,
         "char_end": 313,
         "char_count": 313,
@@ -435,7 +370,7 @@
       }
     },
     {
-      "order": 20,
+      "order": 17,
       "chunk_id": "employee-handbook__s-who-to-contact-a938__c0",
       "source": "employee_handbook.docx",
       "file_type": "docx",
@@ -448,7 +383,7 @@
         "file_type": "docx",
         "section": "Who to Contact",
         "chunk_index": 0,
-        "global_index": 20,
+        "global_index": 17,
         "char_start": 0,
         "char_end": 301,
         "char_count": 301,
@@ -456,7 +391,7 @@
       }
     },
     {
-      "order": 21,
+      "order": 18,
       "chunk_id": "faq__i0__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -470,7 +405,7 @@
         "item_index": 0,
         "section": "item 1 (Leave)",
         "chunk_index": 0,
-        "global_index": 21,
+        "global_index": 18,
         "char_start": 0,
         "char_end": 255,
         "char_count": 255,
@@ -478,7 +413,7 @@
       }
     },
     {
-      "order": 22,
+      "order": 19,
       "chunk_id": "faq__i1__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -492,7 +427,7 @@
         "item_index": 1,
         "section": "item 2 (Leave)",
         "chunk_index": 0,
-        "global_index": 22,
+        "global_index": 19,
         "char_start": 0,
         "char_end": 202,
         "char_count": 202,
@@ -500,7 +435,7 @@
       }
     },
     {
-      "order": 23,
+      "order": 20,
       "chunk_id": "faq__i2__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -514,7 +449,7 @@
         "item_index": 2,
         "section": "item 3 (Leave)",
         "chunk_index": 0,
-        "global_index": 23,
+        "global_index": 20,
         "char_start": 0,
         "char_end": 176,
         "char_count": 176,
@@ -522,7 +457,7 @@
       }
     },
     {
-      "order": 24,
+      "order": 21,
       "chunk_id": "faq__i3__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -536,7 +471,7 @@
         "item_index": 3,
         "section": "item 4 (Payroll)",
         "chunk_index": 0,
-        "global_index": 24,
+        "global_index": 21,
         "char_start": 0,
         "char_end": 246,
         "char_count": 246,
@@ -544,7 +479,7 @@
       }
     },
     {
-      "order": 25,
+      "order": 22,
       "chunk_id": "faq__i4__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -558,7 +493,7 @@
         "item_index": 4,
         "section": "item 5 (Expenses)",
         "chunk_index": 0,
-        "global_index": 25,
+        "global_index": 22,
         "char_start": 0,
         "char_end": 272,
         "char_count": 272,
@@ -566,7 +501,7 @@
       }
     },
     {
-      "order": 26,
+      "order": 23,
       "chunk_id": "faq__i5__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -580,7 +515,7 @@
         "item_index": 5,
         "section": "item 6 (Remote Work)",
         "chunk_index": 0,
-        "global_index": 26,
+        "global_index": 23,
         "char_start": 0,
         "char_end": 221,
         "char_count": 221,
@@ -588,7 +523,7 @@
       }
     },
     {
-      "order": 27,
+      "order": 24,
       "chunk_id": "faq__i6__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -602,7 +537,7 @@
         "item_index": 6,
         "section": "item 7 (IT)",
         "chunk_index": 0,
-        "global_index": 27,
+        "global_index": 24,
         "char_start": 0,
         "char_end": 227,
         "char_count": 227,
@@ -610,7 +545,7 @@
       }
     },
     {
-      "order": 28,
+      "order": 25,
       "chunk_id": "faq__i7__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -624,7 +559,7 @@
         "item_index": 7,
         "section": "item 8 (IT)",
         "chunk_index": 0,
-        "global_index": 28,
+        "global_index": 25,
         "char_start": 0,
         "char_end": 159,
         "char_count": 159,
@@ -632,7 +567,7 @@
       }
     },
     {
-      "order": 29,
+      "order": 26,
       "chunk_id": "faq__i8__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -646,7 +581,7 @@
         "item_index": 8,
         "section": "item 9 (IT)",
         "chunk_index": 0,
-        "global_index": 29,
+        "global_index": 26,
         "char_start": 0,
         "char_end": 194,
         "char_count": 194,
@@ -654,7 +589,7 @@
       }
     },
     {
-      "order": 30,
+      "order": 27,
       "chunk_id": "faq__i9__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -668,7 +603,7 @@
         "item_index": 9,
         "section": "item 10 (Benefits)",
         "chunk_index": 0,
-        "global_index": 30,
+        "global_index": 27,
         "char_start": 0,
         "char_end": 265,
         "char_count": 265,
@@ -676,7 +611,7 @@
       }
     },
     {
-      "order": 31,
+      "order": 28,
       "chunk_id": "faq__i10__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -690,7 +625,7 @@
         "item_index": 10,
         "section": "item 11 (Benefits)",
         "chunk_index": 0,
-        "global_index": 31,
+        "global_index": 28,
         "char_start": 0,
         "char_end": 165,
         "char_count": 165,
@@ -698,7 +633,7 @@
       }
     },
     {
-      "order": 32,
+      "order": 29,
       "chunk_id": "faq__i11__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -712,7 +647,7 @@
         "item_index": 11,
         "section": "item 12 (Benefits)",
         "chunk_index": 0,
-        "global_index": 32,
+        "global_index": 29,
         "char_start": 0,
         "char_end": 233,
         "char_count": 233,
@@ -720,7 +655,7 @@
       }
     },
     {
-      "order": 33,
+      "order": 30,
       "chunk_id": "faq__i12__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -734,7 +669,7 @@
         "item_index": 12,
         "section": "item 13 (Probation)",
         "chunk_index": 0,
-        "global_index": 33,
+        "global_index": 30,
         "char_start": 0,
         "char_end": 169,
         "char_count": 169,
@@ -742,7 +677,7 @@
       }
     },
     {
-      "order": 34,
+      "order": 31,
       "chunk_id": "faq__i13__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -756,7 +691,7 @@
         "item_index": 13,
         "section": "item 14 (Resignation)",
         "chunk_index": 0,
-        "global_index": 34,
+        "global_index": 31,
         "char_start": 0,
         "char_end": 178,
         "char_count": 178,
@@ -764,7 +699,7 @@
       }
     },
     {
-      "order": 35,
+      "order": 32,
       "chunk_id": "faq__i14__c0",
       "source": "faq.json",
       "file_type": "json",
@@ -778,7 +713,7 @@
         "item_index": 14,
         "section": "item 15 (General)",
         "chunk_index": 0,
-        "global_index": 35,
+        "global_index": 32,
         "char_start": 0,
         "char_end": 146,
         "char_count": 146,
@@ -786,7 +721,7 @@
       }
     },
     {
-      "order": 36,
+      "order": 33,
       "chunk_id": "hr-data__r1__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -799,7 +734,7 @@
         "file_type": "csv",
         "row": 1,
         "chunk_index": 0,
-        "global_index": 36,
+        "global_index": 33,
         "char_start": 0,
         "char_end": 191,
         "char_count": 191,
@@ -807,7 +742,7 @@
       }
     },
     {
-      "order": 37,
+      "order": 34,
       "chunk_id": "hr-data__r2__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -820,7 +755,7 @@
         "file_type": "csv",
         "row": 2,
         "chunk_index": 0,
-        "global_index": 37,
+        "global_index": 34,
         "char_start": 0,
         "char_end": 212,
         "char_count": 212,
@@ -828,7 +763,7 @@
       }
     },
     {
-      "order": 38,
+      "order": 35,
       "chunk_id": "hr-data__r3__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -841,7 +776,7 @@
         "file_type": "csv",
         "row": 3,
         "chunk_index": 0,
-        "global_index": 38,
+        "global_index": 35,
         "char_start": 0,
         "char_end": 222,
         "char_count": 222,
@@ -849,7 +784,7 @@
       }
     },
     {
-      "order": 39,
+      "order": 36,
       "chunk_id": "hr-data__r4__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -862,7 +797,7 @@
         "file_type": "csv",
         "row": 4,
         "chunk_index": 0,
-        "global_index": 39,
+        "global_index": 36,
         "char_start": 0,
         "char_end": 207,
         "char_count": 207,
@@ -870,7 +805,7 @@
       }
     },
     {
-      "order": 40,
+      "order": 37,
       "chunk_id": "hr-data__r5__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -883,7 +818,7 @@
         "file_type": "csv",
         "row": 5,
         "chunk_index": 0,
-        "global_index": 40,
+        "global_index": 37,
         "char_start": 0,
         "char_end": 221,
         "char_count": 221,
@@ -891,7 +826,7 @@
       }
     },
     {
-      "order": 41,
+      "order": 38,
       "chunk_id": "hr-data__r6__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -904,7 +839,7 @@
         "file_type": "csv",
         "row": 6,
         "chunk_index": 0,
-        "global_index": 41,
+        "global_index": 38,
         "char_start": 0,
         "char_end": 212,
         "char_count": 212,
@@ -912,7 +847,7 @@
       }
     },
     {
-      "order": 42,
+      "order": 39,
       "chunk_id": "hr-data__r7__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -925,7 +860,7 @@
         "file_type": "csv",
         "row": 7,
         "chunk_index": 0,
-        "global_index": 42,
+        "global_index": 39,
         "char_start": 0,
         "char_end": 217,
         "char_count": 217,
@@ -933,7 +868,7 @@
       }
     },
     {
-      "order": 43,
+      "order": 40,
       "chunk_id": "hr-data__r8__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -946,7 +881,7 @@
         "file_type": "csv",
         "row": 8,
         "chunk_index": 0,
-        "global_index": 43,
+        "global_index": 40,
         "char_start": 0,
         "char_end": 206,
         "char_count": 206,
@@ -954,7 +889,7 @@
       }
     },
     {
-      "order": 44,
+      "order": 41,
       "chunk_id": "hr-data__r9__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -967,7 +902,7 @@
         "file_type": "csv",
         "row": 9,
         "chunk_index": 0,
-        "global_index": 44,
+        "global_index": 41,
         "char_start": 0,
         "char_end": 218,
         "char_count": 218,
@@ -975,7 +910,7 @@
       }
     },
     {
-      "order": 45,
+      "order": 42,
       "chunk_id": "hr-data__r10__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -988,7 +923,7 @@
         "file_type": "csv",
         "row": 10,
         "chunk_index": 0,
-        "global_index": 45,
+        "global_index": 42,
         "char_start": 0,
         "char_end": 211,
         "char_count": 211,
@@ -996,7 +931,7 @@
       }
     },
     {
-      "order": 46,
+      "order": 43,
       "chunk_id": "hr-data__r11__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1009,7 +944,7 @@
         "file_type": "csv",
         "row": 11,
         "chunk_index": 0,
-        "global_index": 46,
+        "global_index": 43,
         "char_start": 0,
         "char_end": 204,
         "char_count": 204,
@@ -1017,7 +952,7 @@
       }
     },
     {
-      "order": 47,
+      "order": 44,
       "chunk_id": "hr-data__r12__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1030,7 +965,7 @@
         "file_type": "csv",
         "row": 12,
         "chunk_index": 0,
-        "global_index": 47,
+        "global_index": 44,
         "char_start": 0,
         "char_end": 215,
         "char_count": 215,
@@ -1038,7 +973,7 @@
       }
     },
     {
-      "order": 48,
+      "order": 45,
       "chunk_id": "hr-data__r13__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1051,7 +986,7 @@
         "file_type": "csv",
         "row": 13,
         "chunk_index": 0,
-        "global_index": 48,
+        "global_index": 45,
         "char_start": 0,
         "char_end": 215,
         "char_count": 215,
@@ -1059,7 +994,7 @@
       }
     },
     {
-      "order": 49,
+      "order": 46,
       "chunk_id": "hr-data__r14__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1072,7 +1007,7 @@
         "file_type": "csv",
         "row": 14,
         "chunk_index": 0,
-        "global_index": 49,
+        "global_index": 46,
         "char_start": 0,
         "char_end": 208,
         "char_count": 208,
@@ -1080,7 +1015,7 @@
       }
     },
     {
-      "order": 50,
+      "order": 47,
       "chunk_id": "hr-data__r15__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1093,7 +1028,7 @@
         "file_type": "csv",
         "row": 15,
         "chunk_index": 0,
-        "global_index": 50,
+        "global_index": 47,
         "char_start": 0,
         "char_end": 209,
         "char_count": 209,
@@ -1101,7 +1036,7 @@
       }
     },
     {
-      "order": 51,
+      "order": 48,
       "chunk_id": "hr-data__r16__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1114,7 +1049,7 @@
         "file_type": "csv",
         "row": 16,
         "chunk_index": 0,
-        "global_index": 51,
+        "global_index": 48,
         "char_start": 0,
         "char_end": 198,
         "char_count": 198,
@@ -1122,7 +1057,7 @@
       }
     },
     {
-      "order": 52,
+      "order": 49,
       "chunk_id": "hr-data__r17__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1135,7 +1070,7 @@
         "file_type": "csv",
         "row": 17,
         "chunk_index": 0,
-        "global_index": 52,
+        "global_index": 49,
         "char_start": 0,
         "char_end": 199,
         "char_count": 199,
@@ -1143,7 +1078,7 @@
       }
     },
     {
-      "order": 53,
+      "order": 50,
       "chunk_id": "hr-data__r18__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1156,7 +1091,7 @@
         "file_type": "csv",
         "row": 18,
         "chunk_index": 0,
-        "global_index": 53,
+        "global_index": 50,
         "char_start": 0,
         "char_end": 202,
         "char_count": 202,
@@ -1164,7 +1099,7 @@
       }
     },
     {
-      "order": 54,
+      "order": 51,
       "chunk_id": "hr-data__r19__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1177,7 +1112,7 @@
         "file_type": "csv",
         "row": 19,
         "chunk_index": 0,
-        "global_index": 54,
+        "global_index": 51,
         "char_start": 0,
         "char_end": 194,
         "char_count": 194,
@@ -1185,7 +1120,7 @@
       }
     },
     {
-      "order": 55,
+      "order": 52,
       "chunk_id": "hr-data__r20__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1198,7 +1133,7 @@
         "file_type": "csv",
         "row": 20,
         "chunk_index": 0,
-        "global_index": 55,
+        "global_index": 52,
         "char_start": 0,
         "char_end": 217,
         "char_count": 217,
@@ -1206,7 +1141,7 @@
       }
     },
     {
-      "order": 56,
+      "order": 53,
       "chunk_id": "hr-data__r21__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1219,7 +1154,7 @@
         "file_type": "csv",
         "row": 21,
         "chunk_index": 0,
-        "global_index": 56,
+        "global_index": 53,
         "char_start": 0,
         "char_end": 198,
         "char_count": 198,
@@ -1227,7 +1162,7 @@
       }
     },
     {
-      "order": 57,
+      "order": 54,
       "chunk_id": "hr-data__r22__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1240,7 +1175,7 @@
         "file_type": "csv",
         "row": 22,
         "chunk_index": 0,
-        "global_index": 57,
+        "global_index": 54,
         "char_start": 0,
         "char_end": 205,
         "char_count": 205,
@@ -1248,7 +1183,7 @@
       }
     },
     {
-      "order": 58,
+      "order": 55,
       "chunk_id": "hr-data__r23__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1261,7 +1196,7 @@
         "file_type": "csv",
         "row": 23,
         "chunk_index": 0,
-        "global_index": 58,
+        "global_index": 55,
         "char_start": 0,
         "char_end": 209,
         "char_count": 209,
@@ -1269,7 +1204,7 @@
       }
     },
     {
-      "order": 59,
+      "order": 56,
       "chunk_id": "hr-data__r24__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1282,7 +1217,7 @@
         "file_type": "csv",
         "row": 24,
         "chunk_index": 0,
-        "global_index": 59,
+        "global_index": 56,
         "char_start": 0,
         "char_end": 209,
         "char_count": 209,
@@ -1290,7 +1225,7 @@
       }
     },
     {
-      "order": 60,
+      "order": 57,
       "chunk_id": "hr-data__r25__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1303,7 +1238,7 @@
         "file_type": "csv",
         "row": 25,
         "chunk_index": 0,
-        "global_index": 60,
+        "global_index": 57,
         "char_start": 0,
         "char_end": 209,
         "char_count": 209,
@@ -1311,7 +1246,7 @@
       }
     },
     {
-      "order": 61,
+      "order": 58,
       "chunk_id": "hr-data__s-summary-a80d__c0",
       "source": "hr_data.csv",
       "file_type": "csv",
@@ -1324,7 +1259,7 @@
         "file_type": "csv",
         "section": "summary",
         "chunk_index": 0,
-        "global_index": 61,
+        "global_index": 58,
         "char_start": 0,
         "char_end": 602,
         "char_count": 602,
@@ -1332,7 +1267,7 @@
       }
     },
     {
-      "order": 62,
+      "order": 59,
       "chunk_id": "leave-policy__s-aurora-dynamics-leave-po-322d__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1345,7 +1280,7 @@
         "file_type": "txt",
         "section": "AURORA DYNAMICS - LEAVE POLICY",
         "chunk_index": 0,
-        "global_index": 62,
+        "global_index": 59,
         "char_start": 0,
         "char_end": 94,
         "char_count": 94,
@@ -1353,7 +1288,7 @@
       }
     },
     {
-      "order": 63,
+      "order": 60,
       "chunk_id": "leave-policy__s-1-purpose-7a21__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1366,7 +1301,7 @@
         "file_type": "txt",
         "section": "1. PURPOSE",
         "chunk_index": 0,
-        "global_index": 63,
+        "global_index": 60,
         "char_start": 0,
         "char_end": 247,
         "char_count": 247,
@@ -1374,49 +1309,28 @@
       }
     },
     {
-      "order": 64,
+      "order": 61,
       "chunk_id": "leave-policy__s-2-annual-leave-7a30__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
       "locator": "section: 2. ANNUAL LEAVE",
       "chunk_index": 0,
-      "characters": 482,
-      "text": "2. ANNUAL LEAVE\nEvery permanent employee is entitled to 20 paid annual leave days per calendar year. Leave accrues\nmonthly at a rate of 1.67 days per month of service and is credited to the employee's PeopleHub\nbalance at the start of each month.\n\nEmployees may carry over a maximum of 5 unused annual leave days into the next calendar year.\nCarried-over days must be used by 31 March, after which they expire. Annual leave cannot be\nencashed except at the time of final settlement.",
+      "characters": 704,
+      "text": "2. ANNUAL LEAVE\nEvery permanent employee is entitled to 20 paid annual leave days per calendar year. Leave accrues\nmonthly at a rate of 1.67 days per month of service and is credited to the employee's PeopleHub\nbalance at the start of each month.\n\nEmployees may carry over a maximum of 5 unused annual leave days into the next calendar year.\nCarried-over days must be used by 31 March, after which they expire. Annual leave cannot be\nencashed except at the time of final settlement.\n\nAnnual leave requests must be submitted in PeopleHub at least 5 working days in advance. Requests\nfor more than 5 consecutive days require 2 weeks' notice. Line managers approve or decline requests\nwithin 2 working days.",
       "metadata": {
         "source": "leave_policy.txt",
         "file_type": "txt",
         "section": "2. ANNUAL LEAVE",
         "chunk_index": 0,
-        "global_index": 64,
+        "global_index": 61,
         "char_start": 0,
-        "char_end": 482,
-        "char_count": 482,
+        "char_end": 704,
+        "char_count": 704,
         "chunk_id": "leave-policy__s-2-annual-leave-7a30__c0"
       }
     },
     {
-      "order": 65,
-      "chunk_id": "leave-policy__s-2-annual-leave-7a30__c1",
-      "source": "leave_policy.txt",
-      "file_type": "txt",
-      "locator": "section: 2. ANNUAL LEAVE",
-      "chunk_index": 1,
-      "characters": 220,
-      "text": "Annual leave requests must be submitted in PeopleHub at least 5 working days in advance. Requests\nfor more than 5 consecutive days require 2 weeks' notice. Line managers approve or decline requests\nwithin 2 working days.",
-      "metadata": {
-        "source": "leave_policy.txt",
-        "file_type": "txt",
-        "section": "2. ANNUAL LEAVE",
-        "chunk_index": 1,
-        "global_index": 65,
-        "char_start": 484,
-        "char_end": 704,
-        "char_count": 220,
-        "chunk_id": "leave-policy__s-2-annual-leave-7a30__c1"
-      }
-    },
-    {
-      "order": 66,
+      "order": 62,
       "chunk_id": "leave-policy__s-3-sick-leave-51cb__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1429,7 +1343,7 @@
         "file_type": "txt",
         "section": "3. SICK LEAVE",
         "chunk_index": 0,
-        "global_index": 66,
+        "global_index": 62,
         "char_start": 0,
         "char_end": 296,
         "char_count": 296,
@@ -1437,7 +1351,7 @@
       }
     },
     {
-      "order": 67,
+      "order": 63,
       "chunk_id": "leave-policy__s-4-casual-leave-ca49__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1450,7 +1364,7 @@
         "file_type": "txt",
         "section": "4. CASUAL LEAVE",
         "chunk_index": 0,
-        "global_index": 67,
+        "global_index": 63,
         "char_start": 0,
         "char_end": 221,
         "char_count": 221,
@@ -1458,7 +1372,7 @@
       }
     },
     {
-      "order": 68,
+      "order": 64,
       "chunk_id": "leave-policy__s-5-parental-leave-95eb__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1471,7 +1385,7 @@
         "file_type": "txt",
         "section": "5. PARENTAL LEAVE",
         "chunk_index": 0,
-        "global_index": 68,
+        "global_index": 64,
         "char_start": 0,
         "char_end": 316,
         "char_count": 316,
@@ -1479,7 +1393,7 @@
       }
     },
     {
-      "order": 69,
+      "order": 65,
       "chunk_id": "leave-policy__s-6-public-holidays-d043__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1492,7 +1406,7 @@
         "file_type": "txt",
         "section": "6. PUBLIC HOLIDAYS",
         "chunk_index": 0,
-        "global_index": 69,
+        "global_index": 65,
         "char_start": 0,
         "char_end": 216,
         "char_count": 216,
@@ -1500,7 +1414,7 @@
       }
     },
     {
-      "order": 70,
+      "order": 66,
       "chunk_id": "leave-policy__s-7-unpaid-leave-aa67__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1513,7 +1427,7 @@
         "file_type": "txt",
         "section": "7. UNPAID LEAVE",
         "chunk_index": 0,
-        "global_index": 70,
+        "global_index": 66,
         "char_start": 0,
         "char_end": 182,
         "char_count": 182,
@@ -1521,7 +1435,7 @@
       }
     },
     {
-      "order": 71,
+      "order": 67,
       "chunk_id": "leave-policy__s-8-leave-during-probation-0244__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1534,7 +1448,7 @@
         "file_type": "txt",
         "section": "8. LEAVE DURING PROBATION",
         "chunk_index": 0,
-        "global_index": 71,
+        "global_index": 67,
         "char_start": 0,
         "char_end": 229,
         "char_count": 229,
@@ -1542,7 +1456,7 @@
       }
     },
     {
-      "order": 72,
+      "order": 68,
       "chunk_id": "leave-policy__s-9-how-to-request-leave-2346__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1555,7 +1469,7 @@
         "file_type": "txt",
         "section": "9. HOW TO REQUEST LEAVE",
         "chunk_index": 0,
-        "global_index": 72,
+        "global_index": 68,
         "char_start": 0,
         "char_end": 266,
         "char_count": 266,
@@ -1563,7 +1477,7 @@
       }
     },
     {
-      "order": 73,
+      "order": 69,
       "chunk_id": "leave-policy__s-10-contact-f86e__c0",
       "source": "leave_policy.txt",
       "file_type": "txt",
@@ -1576,7 +1490,7 @@
         "file_type": "txt",
         "section": "10. CONTACT",
         "chunk_index": 0,
-        "global_index": 73,
+        "global_index": 69,
         "char_start": 0,
         "char_end": 70,
         "char_count": 70,
@@ -1584,7 +1498,7 @@
       }
     },
     {
-      "order": 74,
+      "order": 70,
       "chunk_id": "notes__s-aurora-dynamics-internal-f358__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1597,7 +1511,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > Q3 2026 All-Hands Meeting Notes",
         "chunk_index": 0,
-        "global_index": 74,
+        "global_index": 70,
         "char_start": 0,
         "char_end": 249,
         "char_count": 249,
@@ -1605,7 +1519,7 @@
       }
     },
     {
-      "order": 75,
+      "order": 71,
       "chunk_id": "notes__s-aurora-dynamics-internal-dfe8__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1618,7 +1532,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > Q3 2026 All-Hands Meeting Notes > Business update",
         "chunk_index": 0,
-        "global_index": 75,
+        "global_index": 71,
         "char_start": 0,
         "char_end": 255,
         "char_count": 255,
@@ -1626,7 +1540,7 @@
       }
     },
     {
-      "order": 76,
+      "order": 72,
       "chunk_id": "notes__s-aurora-dynamics-internal-3bd6__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1639,7 +1553,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > Q3 2026 All-Hands Meeting Notes > People Operations announcements",
         "chunk_index": 0,
-        "global_index": 76,
+        "global_index": 72,
         "char_start": 0,
         "char_end": 606,
         "char_count": 606,
@@ -1647,7 +1561,7 @@
       }
     },
     {
-      "order": 77,
+      "order": 73,
       "chunk_id": "notes__s-aurora-dynamics-internal-0a8a__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1660,7 +1574,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > Q3 2026 All-Hands Meeting Notes > Engineering update",
         "chunk_index": 0,
-        "global_index": 77,
+        "global_index": 73,
         "char_start": 0,
         "char_end": 205,
         "char_count": 205,
@@ -1668,7 +1582,7 @@
       }
     },
     {
-      "order": 78,
+      "order": 74,
       "chunk_id": "notes__s-aurora-dynamics-internal-dcb7__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1681,7 +1595,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > Q3 2026 All-Hands Meeting Notes > Upcoming events",
         "chunk_index": 0,
-        "global_index": 78,
+        "global_index": 74,
         "char_start": 0,
         "char_end": 268,
         "char_count": 268,
@@ -1689,7 +1603,7 @@
       }
     },
     {
-      "order": 79,
+      "order": 75,
       "chunk_id": "notes__s-aurora-dynamics-internal-8344__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1702,7 +1616,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > People Ops Sync - 19 September 2026 > Action items",
         "chunk_index": 0,
-        "global_index": 79,
+        "global_index": 75,
         "char_start": 0,
         "char_end": 349,
         "char_count": 349,
@@ -1710,7 +1624,7 @@
       }
     },
     {
-      "order": 80,
+      "order": 76,
       "chunk_id": "notes__s-aurora-dynamics-internal-46e3__c0",
       "source": "notes.md",
       "file_type": "md",
@@ -1723,7 +1637,7 @@
         "file_type": "md",
         "section": "Aurora Dynamics - Internal Notes > People Ops Sync - 19 September 2026 > Open questions",
         "chunk_index": 0,
-        "global_index": 80,
+        "global_index": 76,
         "char_start": 0,
         "char_end": 248,
         "char_count": 248,
@@ -1731,7 +1645,7 @@
       }
     },
     {
-      "order": 81,
+      "order": 77,
       "chunk_id": "website-content__s-aurora-dynamics-71e0__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1745,7 +1659,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics",
         "chunk_index": 0,
-        "global_index": 81,
+        "global_index": 77,
         "char_start": 0,
         "char_end": 95,
         "char_count": 95,
@@ -1753,7 +1667,7 @@
       }
     },
     {
-      "order": 82,
+      "order": 78,
       "chunk_id": "website-content__s-aurora-dynamics-about-us-8daa__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1767,7 +1681,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > About Us",
         "chunk_index": 0,
-        "global_index": 82,
+        "global_index": 78,
         "char_start": 0,
         "char_end": 460,
         "char_count": 460,
@@ -1775,7 +1689,7 @@
       }
     },
     {
-      "order": 83,
+      "order": 79,
       "chunk_id": "website-content__s-aurora-dynamics-services-4591__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1789,7 +1703,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Services > AI Consulting",
         "chunk_index": 0,
-        "global_index": 83,
+        "global_index": 79,
         "char_start": 0,
         "char_end": 190,
         "char_count": 190,
@@ -1797,7 +1711,7 @@
       }
     },
     {
-      "order": 84,
+      "order": 80,
       "chunk_id": "website-content__s-aurora-dynamics-services-c5e1__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1811,7 +1725,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Services > Cloud Engineering",
         "chunk_index": 0,
-        "global_index": 84,
+        "global_index": 80,
         "char_start": 0,
         "char_end": 108,
         "char_count": 108,
@@ -1819,7 +1733,7 @@
       }
     },
     {
-      "order": 85,
+      "order": 81,
       "chunk_id": "website-content__s-aurora-dynamics-services-544e__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1833,7 +1747,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Services > Data Engineering",
         "chunk_index": 0,
-        "global_index": 85,
+        "global_index": 81,
         "char_start": 0,
         "char_end": 92,
         "char_count": 92,
@@ -1841,7 +1755,7 @@
       }
     },
     {
-      "order": 86,
+      "order": 82,
       "chunk_id": "website-content__s-aurora-dynamics-services-6fdd__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1855,7 +1769,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Services > Custom Software Development",
         "chunk_index": 0,
-        "global_index": 86,
+        "global_index": 82,
         "char_start": 0,
         "char_end": 102,
         "char_count": 102,
@@ -1863,7 +1777,7 @@
       }
     },
     {
-      "order": 87,
+      "order": 83,
       "chunk_id": "website-content__s-aurora-dynamics-our-offi-4c6e__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1877,7 +1791,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Our Offices > Lahore (Headquarters)",
         "chunk_index": 0,
-        "global_index": 87,
+        "global_index": 83,
         "char_start": 0,
         "char_end": 164,
         "char_count": 164,
@@ -1885,7 +1799,7 @@
       }
     },
     {
-      "order": 88,
+      "order": 84,
       "chunk_id": "website-content__s-aurora-dynamics-our-offi-21f4__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1899,7 +1813,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Our Offices > Karachi",
         "chunk_index": 0,
-        "global_index": 88,
+        "global_index": 84,
         "char_start": 0,
         "char_end": 97,
         "char_count": 97,
@@ -1907,7 +1821,7 @@
       }
     },
     {
-      "order": 89,
+      "order": 85,
       "chunk_id": "website-content__s-aurora-dynamics-our-offi-3cbb__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1921,7 +1835,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Our Offices > Dubai",
         "chunk_index": 0,
-        "global_index": 89,
+        "global_index": 85,
         "char_start": 0,
         "char_end": 137,
         "char_count": 137,
@@ -1929,7 +1843,7 @@
       }
     },
     {
-      "order": 90,
+      "order": 86,
       "chunk_id": "website-content__s-aurora-dynamics-leadersh-a232__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1943,7 +1857,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Leadership Team",
         "chunk_index": 0,
-        "global_index": 90,
+        "global_index": 86,
         "char_start": 0,
         "char_end": 236,
         "char_count": 236,
@@ -1951,7 +1865,7 @@
       }
     },
     {
-      "order": 91,
+      "order": 87,
       "chunk_id": "website-content__s-aurora-dynamics-careers-4b68__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1965,7 +1879,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Careers",
         "chunk_index": 0,
-        "global_index": 91,
+        "global_index": 87,
         "char_start": 0,
         "char_end": 333,
         "char_count": 333,
@@ -1973,7 +1887,7 @@
       }
     },
     {
-      "order": 92,
+      "order": 88,
       "chunk_id": "website-content__s-aurora-dynamics-contact-04f0__c0",
       "source": "website_content.html",
       "file_type": "html",
@@ -1987,7 +1901,7 @@
         "title": "Aurora Dynamics - AI, Cloud and Data Engineering",
         "section": "Aurora Dynamics > Contact",
         "chunk_index": 0,
-        "global_index": 92,
+        "global_index": 88,
         "char_start": 0,
         "char_end": 150,
         "char_count": 150,

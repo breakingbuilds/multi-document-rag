@@ -6,9 +6,9 @@ HTML), shows **where every answer came from**, rewrites queries **manually (by
 embeddings) and with an LLM**, and evaluates itself **manually and with RAGAS**
 on Faithfulness, Answer Relevance, Context Precision and Context Recall.
 
-It is a command-line application: an interactive question loop (`main.py`),
-an ingestion script (`ingest.py`) and two evaluation scripts, all driving the
-same pipeline.
+One pipeline, two front-ends: an interactive command-line loop (`main.py`) and
+a Streamlit web app (`app.py`), plus an ingestion script (`ingest.py`) and two
+evaluation scripts, all driving the same `RAGPipeline`.
 
 ```
 Multiple documents -> load -> extract text -> chunk -> embed -> ChromaDB
@@ -58,7 +58,7 @@ flowchart LR
 | Embeddings | Local `sentence-transformers` (4 selectable models, no API key) |
 | Vector DB | Persistent **ChromaDB** collection per embedding model (cosine), behind an abstract `VectorStore` |
 | Query rewriting | **Manual** (rule-based rewrites → embed each → RRF fusion, or embedding centroid) and **LLM** (multi-query, HyDE, step-back) and **hybrid** |
-| LLM | **Groq** (free) or **Hugging Face Inference Providers** through one OpenAI-compatible client; live model list |
+| LLM | **Groq** (free), **Hugging Face Inference Providers** or a local **Ollama** server through one OpenAI-compatible client; live model list per provider |
 | Answers | Grounded prompt with numbered passages; `[n]` citations (model variants such as `【2】`, `【2†L1-L4】`, `[1, 3]`, `[2-4]` are normalised); explicit "I don't have enough information" refusal |
 | CLI | Interactive loop with live switching of provider, model, strategy and top-k (`/provider`, `/model`, `/strategy`, `/k`); rewrite and chunk inspection; `--list-models`; `--evaluate` prints the four metrics under every answer |
 | Web app | `streamlit run app.py` — the same pipeline behind a browser page: chat with citation chips, rewrites and chunks on demand, per-answer evaluation, document upload + re-index, and the two evaluation reports side by side |
@@ -88,7 +88,7 @@ multi_document_rag_project/
 │   ├── retriever.py             # top-k search, multi-query RRF fusion
 │   ├── query_rewriter.py        # manual + LLM rewriting strategies
 │   ├── prompt.py                # answering / rewriting / judging prompts
-│   ├── llm.py                   # OpenAI-compatible client, Groq + HF presets
+│   ├── llm.py                   # OpenAI-compatible client; Groq, Hugging Face and Ollama presets
 │   └── rag_pipeline.py          # RAGPipeline.ask() -> RAGResponse
 ├── evaluation/
 │   ├── evaluation_data.json     # 12 questions with ground truth + expected sources
@@ -191,6 +191,7 @@ python main.py                           # interactive question loop
 python main.py -q "How many annual leave days are allowed?"   # one-shot
 python main.py --list-models             # models your provider offers
 python main.py --evaluate                # + Evaluation: block under every answer
+streamlit run app.py                     # the same pipeline in the browser (section below)
 ```
 
 Example CLI session (the layout from the project brief, framed by `src/console.py`;
